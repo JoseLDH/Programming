@@ -7,7 +7,33 @@ public class Course {
     public String course, name, surname;
     public int time;
     
-    public boolean CourseName(){
+    public Course(){
+        course=name=surname="";
+        time=0;
+    }
+    
+    public Course(String course, String name, String surname, int time){
+        if(CourseName(course){
+            this.course = course;
+        }
+        
+        if(TeacherName(name, surname){
+            this.name = name;
+            this.surname = surname;
+        }
+        
+        if(CourseID(course){
+            this.course = course;
+        }
+           
+        if(CourseTime(time){
+            this.time = time;
+        }
+           }
+        
+           
+    
+    public boolean CourseName(String course){
         if(course.length()<=4){
         return true;
     }else{
